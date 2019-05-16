@@ -1,0 +1,38 @@
+<main>
+  <a href="#" title="Home-foto">
+    <img [src]="propertyPhoto.src" alt="Property-foto" class="Property-foto">
+  </a>
+  <div class="main-container">
+    <div class="main-info-block">
+      <div class="apartment-info">
+        <h1>{{propData.name}}</h1>
+        <p>Entire apartment</p>
+        <div class="apartment-info-parametres">
+          <p>4 guests</p>
+          <p>1 bed</p>
+          <p>1 bath</p>
+        </div>
+        <div class="location">
+          <p class="location-text">{{propData.descr}}
+          </p>
+        </div>
+      </div>
+
+      <div class="booking-info">
+        <p>{{propData.base_price}} per night</p>
+        <div class="date">
+          <input type="text" name="date" id="date" placeholder="Date">
+        </div>
+        <div class="guests">
+          <input type="number" name="guests" id="guests" placeholder="Guests">
+        </div>
+        <button class="book">Book</button>
+
+      </div>
+
+      <div class="hosted-info">
+        <h2>Hosted by Jane</h2>
+      </div>
+    </div>
+  </div>
+</main>

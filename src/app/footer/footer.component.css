@@ -1,0 +1,26 @@
+.footer-column-item-title, .footer-column-title {
+  text-decoration: none;
+  color: #3d4e61; }
+
+.footer-column-title {
+  font-weight: bold; }
+
+.footer-item {
+  margin-top: 10px; }
+
+footer {
+  background: white;
+  -webkit-box-shadow: 0 -1px 0 #e1e7ed;
+  box-shadow: 0 -1px 0 #e1e7ed;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+footer .footer-container {
+  margin: 44px auto;
+  display: grid;
+  width: 901px;
+  grid-template-columns: repeat(3, auto);
+  font-size: 16px;
+  line-height: 19px;
+  color: #3d4e61;
+}

@@ -11,8 +11,8 @@ export interface PropertyData {
 @Injectable()
 export class BookingService {
 
-    private SERVICE_URL = 'http://localhost:8000/api/';
-    // private SERVICE_URL = "http://185.28.100.200:8080/api/";
+    // private SERVICE_URL = 'http://localhost:8000/api/';
+    private SERVICE_URL = "http://booking.zobin.org:8000/api/";
 
 
     constructor(private http: HttpClient) {
